@@ -24,10 +24,12 @@ namespace Test2_Test
         {
             InitializeComponent();
         }
+        int getal = 0;
 
         private void btnTest2_Click(object sender, RoutedEventArgs e)
         {
-            lblTest2.Content = "Hello Woooooooorld";
+            getal++;
+            lblTest2.Content = getal;
         }
     }
 }
