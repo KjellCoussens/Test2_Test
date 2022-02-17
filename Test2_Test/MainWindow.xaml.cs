@@ -24,5 +24,10 @@ namespace Test2_Test
         {
             InitializeComponent();
         }
+
+        private void btnTest2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
