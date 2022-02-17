@@ -27,7 +27,7 @@ namespace Test2_Test
 
         private void btnTest2_Click(object sender, RoutedEventArgs e)
         {
-
+            lblTest2.Content = "Hello Woooooooorld";
         }
     }
 }
